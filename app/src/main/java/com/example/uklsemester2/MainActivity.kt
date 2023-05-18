@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.uklsemester2.menu.MenuActivity
 import com.example.uklsemester2.user.UserActivity
 
 class MainActivity : AppCompatActivity() {
@@ -19,11 +20,11 @@ class MainActivity : AppCompatActivity() {
             val move = Intent(this@MainActivity, UserActivity::class.java)
             startActivity(move)
         }
-//
-//        menu.setOnClickListener{
-//            val move = Intent(this@MainActivity, Menu::class.java)
-//            startActivity(move)
-//        }
+
+        menu.setOnClickListener{
+            val move = Intent(this@MainActivity, MenuActivity::class.java)
+            startActivity(move)
+        }
 //
 //        meja.setOnClickListener{
 //            val move = Intent(this@MainActivity, NoMeja::class.java)

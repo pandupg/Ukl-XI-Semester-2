@@ -8,20 +8,18 @@ import com.example.uklsemester2.menu.makanan.dao.MakananDao
 import com.example.uklsemester2.menu.makanan.entity.Makanan
 import com.example.uklsemester2.menu.minuman.dao.MinumanDao
 import com.example.uklsemester2.menu.minuman.entity.Minuman
-import com.example.uklsemester2.user.dao.UserDao
-import com.example.uklsemester2.user.entity.User
 
-@Database(entities = [Makanan::class], [Minuman::class], version = 1)
-abstract class AppDatabase: RoomDatabase() {
+@Database(entities = [Makanan::class, Minuman::class], version = 1)
+abstract class AppDatabaseMenu: RoomDatabase() {
     abstract fun makananDao(): MakananDao
     abstract fun minumanDao(): MinumanDao
 
     companion object {
-        private var instance: AppDatabase? = null
+        private var instance: AppDatabaseMenu? = null
 
-        fun getInstance(context: Context): AppDatabase {
+        fun getInstance(context: Context): AppDatabaseMenu {
             if (instance == null) {
-                instance = Room.databaseBuilder(context, AppDatabase::class.java, "app-database")
+                instance = Room.databaseBuilder(context, AppDatabaseMenu::class.java, "app-database-menu")
                     .fallbackToDestructiveMigration()
                     .allowMainThreadQueries()
                     .build()

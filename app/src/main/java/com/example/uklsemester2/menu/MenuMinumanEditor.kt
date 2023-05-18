@@ -7,14 +7,13 @@ import android.widget.EditText
 import android.widget.Toast
 import com.example.uklsemester2.R
 import com.example.uklsemester2.menu.minuman.entity.Minuman
-import com.example.uklsemester2.user.entity.User
 
 class MenuMinumanEditor : AppCompatActivity() {
     private lateinit var namaMinuman: EditText
     private lateinit var deskripsi: EditText
     private lateinit var harga: EditText
     private lateinit var btnSave: Button
-    private lateinit var database: AppDatabase
+    private lateinit var database: AppDatabaseMenu
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +24,7 @@ class MenuMinumanEditor : AppCompatActivity() {
         harga = findViewById(R.id.edtHarga)
         btnSave = findViewById(R.id.btn_save)
 
-        database = AppDatabase.getInstance(applicationContext)
+        database = AppDatabaseMenu.getInstance(applicationContext)
 
         var intent = intent.extras
         if(intent != null) {

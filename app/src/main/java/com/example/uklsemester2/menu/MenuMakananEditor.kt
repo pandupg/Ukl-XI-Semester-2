@@ -13,7 +13,7 @@ class MenuMakananEditor : AppCompatActivity() {
     private lateinit var deskripsi: EditText
     private lateinit var harga: EditText
     private lateinit var btnSave: Button
-    private lateinit var database: AppDatabase
+    private lateinit var database: AppDatabaseMenu
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +24,7 @@ class MenuMakananEditor : AppCompatActivity() {
         harga = findViewById(R.id.edtHarga)
         btnSave = findViewById(R.id.btn_save)
 
-        database = AppDatabase.getInstance(applicationContext)
+        database = AppDatabaseMenu.getInstance(applicationContext)
 
         var intent = intent.extras
         if(intent != null) {
