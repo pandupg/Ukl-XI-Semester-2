@@ -2,6 +2,7 @@ Hasil Run Program Kasir
 - Tampilan Utama 
 <img width="233" alt="tampilan_utama" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/a301476f-0fa4-4a04-8492-25a0363cd316">
 
+
 - Add Data User
 1. Sebelum proses menambahkan data user 
 <img width="235" alt="tampilan_sebelum_menambahkan_data" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/3857f8fc-9337-4ab0-88f4-6b00dedad527">
@@ -20,6 +21,7 @@ Hasil Run Program Kasir
 
 6. Tampilan data user setelah proses delete 
 <img width="226" alt="tampilan_setelah_delete_data_user" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/41b4ea19-a5b7-4538-859a-87f750351378">
+
 
 - Add Data Menu
 > Menu Makanan
@@ -41,6 +43,7 @@ Hasil Run Program Kasir
 6. Tampilan menu makanan setelah proses delete
 <img width="230" alt="tampilan_menu_makanan_setelah_proses_delete" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/c66173b3-773e-41ff-bd87-fc26d09052d3">
 
+
 > Menu Minuman
 1. Sebelum proses menambahkan menu minuman
 <img width="228" alt="sebelummenambahkanmenuminuman" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/8ce6b8b7-d2c4-4e35-9ce4-fac9832f41de">
@@ -60,6 +63,7 @@ Hasil Run Program Kasir
 6. Tampilan menu minuman setelah proses delete
 <img width="231" alt="tampilansetelahprosesdelete" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/075391a7-2ed7-477a-9edc-a953f298b65c">
 
+
 - Add Data Meja
 1. Sebelum proses menambahkan meja
 <img width="231" alt="tampilansebelummenambahkanmeja" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/3d2c6451-48af-4387-b108-635e76529d36">
@@ -78,5 +82,6 @@ Hasil Run Program Kasir
 
 6. Tampilan meja setelah proses delete
 <img width="228" alt="tampilansetelahprosesdeletemeja" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/934e0167-3b2b-493f-be50-f46a9cd2c7d9">
+
 
 Sekian Terima Kasih
