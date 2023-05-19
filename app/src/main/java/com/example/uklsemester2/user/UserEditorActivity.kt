@@ -27,7 +27,7 @@ class UserEditorActivity : AppCompatActivity() {
         password = findViewById(R.id.edtPassword)
         jobdesk = findViewById(R.id.edtJobdesk)
         btnSave = findViewById(R.id.btn_save)
-        jobdeskInput =jobdesk.selectedItem.toString()
+        jobdeskInput = jobdesk.selectedItem.toString()
 
         database = AppDatabase.getInstance(applicationContext)
 

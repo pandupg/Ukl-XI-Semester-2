@@ -44,6 +44,7 @@ class MenuActivity : AppCompatActivity() {
         btnAddMinuman = findViewById(R.id.btnAddMinuman)
 
         database = AppDatabaseMenu.getInstance(applicationContext)
+
         adapterMakanan = MakananAdapter(listMakanan)
         adapterMakanan.setDialog(object : MakananAdapter.Dialog{
             override fun onClick(position: Int) {
@@ -125,8 +126,8 @@ class MenuActivity : AppCompatActivity() {
 
     @SuppressLint("NotifyDataSetChanged")
     fun getDataMinuman() {
-        listMakanan.clear()
-        listMakanan.addAll(database.makananDao().getAll())
-        adapterMakanan.notifyDataSetChanged()
+        listMinuman.clear()
+        listMinuman.addAll(database.minumanDao().getAll())
+        adapterMinuman.notifyDataSetChanged()
     }
 }

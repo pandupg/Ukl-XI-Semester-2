@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".menu.MenuMakananEditor">
+    tools:context=".meja.MejaEditor">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Menu Makanan"
+        android:text="Add Nomor Meja"
         android:textAlignment="center"
         android:layout_marginBottom="20dp"
         android:textSize="25sp"
@@ -23,36 +23,13 @@
         android:layout_marginBottom="14dp">
 
         <EditText
-            android:id="@+id/edtNamaMakanan"
+            android:id="@+id/edtNoMeja"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nama Makanan"
-            android:inputType="textPersonName" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="14dp">
-        <EditText
-            android:id="@+id/edtDeskripsi"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Deskripsi Menu"
-            android:inputType="textPersonName" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="14dp">
-        <EditText
-            android:id="@+id/edtHarga"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Harga Menu"
+            android:hint="Nomor Meja"
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <Button
         android:id="@+id/btn_save"
         android:layout_width="match_parent"
