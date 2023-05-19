@@ -5,14 +5,20 @@ Hasil Run Program Kasir
 - Add Data User
 1. Sebelum proses menambahkan data user 
 <img width="235" alt="tampilan_sebelum_menambahkan_data" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/3857f8fc-9337-4ab0-88f4-6b00dedad527">
-3. Proses menambahkan data user <img width="231" alt="tampilan_menambahkan_data" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/66f3a1ec-6810-41b1-a105-75564f70ce4b">
-4. Setelah proses menambahkan data user <img width="227" alt="tampilan_setelah_menambahkan_data_user" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/f0e5461e-d480-45c0-8cf4-6b792f3572f0">
-5. Proses update data (mengganti username PanduPG menjadi PanduPGinting) <img width="226" alt="tampilan_update_data_user" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/174b197c-49f6-437f-9b21-ef5cad4052d5">
-6. Tampilan data user setelah proses update <img width="230" alt="tampilan_data_user_setelah_update" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/5b21aa09-0e4d-491b-910f-5aaf9ee167b0">
-7. Tampilan data user setelah proses delete <img width="226" alt="tampilan_setelah_delete_data_user" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/41b4ea19-a5b7-4538-859a-87f750351378">
+2. Proses menambahkan data user 
+<img width="231" alt="tampilan_menambahkan_data" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/66f3a1ec-6810-41b1-a105-75564f70ce4b">
+3. Setelah proses menambahkan data user
+<img width="227" alt="tampilan_setelah_menambahkan_data_user" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/f0e5461e-d480-45c0-8cf4-6b792f3572f0">
+4. Proses update data (mengganti username PanduPG menjadi PanduPGinting)
+<img width="226" alt="tampilan_update_data_user" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/174b197c-49f6-437f-9b21-ef5cad4052d5">
+5. Tampilan data user setelah proses update <
+img width="230" alt="tampilan_data_user_setelah_update" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/5b21aa09-0e4d-491b-910f-5aaf9ee167b0">
+6. Tampilan data user setelah proses delete 
+<img width="226" alt="tampilan_setelah_delete_data_user" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/41b4ea19-a5b7-4538-859a-87f750351378">
+
 - Add Data Menu
 > Menu Makanan
-8. Sebelum proses menambahkan menu makanan
+11. Sebelum proses menambahkan menu makanan
 <img width="229" alt="tampilan_sebelum_menambahkan_menu_makanan" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/4a405e76-b5c0-4b4a-a39d-efc19cf1c4bd">
 2. Proses menambahkan menu makanan
 <img width="231" alt="tampilan_menambahkan_menu_makanan" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/ba3b04cc-f007-4a76-8c88-52d0f91aa59d">
