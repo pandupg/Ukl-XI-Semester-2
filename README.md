@@ -1,6 +1,5 @@
 Hasil Run Program Kasir
-- Tampilan Utama
-<img width="233" alt="tampilan_utama" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/a301476f-0fa4-4a04-8492-25a0363cd316">
+- Tampilan Utama <img width="233" alt="tampilan_utama" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/a301476f-0fa4-4a04-8492-25a0363cd316">
 - Add Data User
 1. Sebelum proses menambahkan data user
 <img width="235" alt="tampilan_sebelum_menambahkan_data" src="https://github.com/pandupg/Ukl-XI-Semester-2/assets/101226179/3857f8fc-9337-4ab0-88f4-6b00dedad527">
